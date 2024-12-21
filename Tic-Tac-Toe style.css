@@ -1,0 +1,170 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #000;
+            overflow: hidden;
+            position: relative;
+            color: #ffffff;
+        }
+
+        
+        .stars {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #1c1c2b, #000);
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 2s infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% {
+                opacity: 0.8;
+            }
+            50% {
+                opacity: 0.2;
+            }
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(30, 30, 30, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+            z-index: 10;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #00bfae;
+            font-size: 2.5rem;
+        }
+
+        .game-board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 10px;
+            margin: 20px auto;
+        }
+
+        .cell {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #2c2c2c;
+            border-radius: 10px;
+            font-size: 2.5em;
+            color: #ffdd57;
+            cursor: pointer;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .cell:hover {
+            background: #00bfae;
+            transform: scale(1.1);
+        }
+
+        .cell.taken {
+            pointer-events: none;
+            color: #a1a1a1;
+        }
+
+        .status {
+            margin: 15px 0;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        button {
+            padding: 12px 25px;
+            background: #00bfae;
+            border: none;
+            border-radius: 10px;
+            color: #1e1e1e;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #009c95;
+        }
+
+      
+        .winning-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(circle, rgba(255, 223, 0, 0.5), transparent);
+            z-index: 5;
+            display: none;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                background: radial-gradient(circle, rgba(255, 223, 0, 0.5), transparent);
+            }
+            50% {
+                background: radial-gradient(circle, rgba(255, 99, 71, 0.7), transparent);
+            }
+        }
+
+        
+        .confetti {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 6;
+            pointer-events: none;
+        }
+
+        .confetti div {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            opacity: 0;
+            animation: confetti 3s infinite ease-in-out;
+        }
+
+        .confetti div:nth-child(odd) {
+            background: rgba(34, 193, 195, 0.8);
+        }
+
+        .confetti div:nth-child(even) {
+            background: rgba(253, 187, 45, 0.8);
+        }
+
+        @keyframes confetti {
+            0% {
+                opacity: 1;
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                opacity: 0.8;
+                transform: translateY(300px) rotate(180deg);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(600px) rotate(360deg);
+            }
+        }
