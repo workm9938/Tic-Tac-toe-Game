@@ -41,10 +41,10 @@ Enjoy the game with a friend and explore its exciting features.
 ## 🎨 Screenshots
 
 ### Main Game Interface
-![Game Interface](https://via.placeholder.com/800x400.png?text=Galaxy+Theme+Tic-Tac-Toe)
+![Game Interface]()
 
 ### Winning Celebration
-![Winning Effects](https://via.placeholder.com/800x400.png?text=Winning+Celebration)
+![Winning Effects]()
 
 ---
 
@@ -65,18 +65,6 @@ Enjoy the game with a friend and explore its exciting features.
 
 ---
 
-## 🧑‍💻 Contributions
-
-Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/yourusername/galaxy-theme-tic-tac-toe/issues).
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
 
 ## 🌟 Acknowledgments
 - **Inspiration**: The infinite beauty of space and celestial bodies.
