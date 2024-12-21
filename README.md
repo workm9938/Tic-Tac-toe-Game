@@ -19,18 +19,6 @@ Welcome to the **Galaxy Theme Tic-Tac-Toe**! This project offers a visually stun
 
 ---
 
-## 💃🔧 Project Structure
-
-```plaintext
-.
-├── index.html         # Main HTML file
-├── style.css          # Galaxy-themed CSS styles
-├── script.js          # Core JavaScript for game logic
-└── assets/            # Images or external resources (if applicable)
-```
-
----
-
 ## 🛠️ Technologies Used
 
 ### Frontend
@@ -42,16 +30,10 @@ Welcome to the **Galaxy Theme Tic-Tac-Toe**! This project offers a visually stun
 
 ## 🤧 How to Run Locally
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/yourusername/galaxy-theme-tic-tac-toe.git
-cd galaxy-theme-tic-tac-toe
-```
-
-### 2️⃣ Open in Your Browser
+### Open in Your Browser
 Simply double-click the `index.html` file to launch the game in your default web browser.
 
-### 3️⃣ Play the Game!
+### Play the Game!
 Enjoy the game with a friend and explore its exciting features.
 
 ---
@@ -104,7 +86,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ## 🙌 Let's Connect!
-- **GitHub**: [YourUsername](https://github.com/yourusername)
-- **Twitter**: [@YourHandle](https://twitter.com/yourhandle)
-- **Email**: yourname@example.com
+- **GitHub**: workm9938
+- **Email**: workm9938@gmail.com
 
