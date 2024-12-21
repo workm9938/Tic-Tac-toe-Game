@@ -1,4 +1,4 @@
-# 🌌 Galaxy Theme Tic-Tac-Toe
+# 🌌 Galaxy Theme Tic-Tac-Toe Game
 
 Welcome to the **Galaxy Theme Tic-Tac-Toe**! This project offers a visually stunning and interactive Tic-Tac-Toe game with a unique galaxy-inspired aesthetic. The game features an immersive starry background, smooth animations, and exciting effects like confetti and glowing overlays when a player wins.
 
