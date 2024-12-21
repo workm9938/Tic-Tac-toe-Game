@@ -44,7 +44,7 @@ Enjoy the game with a friend and explore its exciting features.
 ![Game Interface](https://github.com/workm9938/Tic-Tac-toe-Game/blob/main/tictactoe.PNG?raw=true)
 
 ### Winning Celebration
-![Winning Effects]()
+![Winning Effects](https://github.com/workm9938/Tic-Tac-toe-Game/blob/main/wiiningtic.PNG?raw=true)
 
 ---
 
