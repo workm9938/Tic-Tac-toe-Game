@@ -1,4 +1,4 @@
-/* General Styling */
+
 body {
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -12,7 +12,7 @@ body {
     color: #ffffff;
 }
 
-/* Galaxy Background */
+
 .stars {
     position: fixed;
     width: 100%;
@@ -105,7 +105,7 @@ button:hover {
     background: #009c95;
 }
 
-/* Full-Screen Winning Background Animation */
+
 .winning-overlay {
     position: fixed;
     top: 0;
@@ -127,7 +127,7 @@ button:hover {
     }
 }
 
-/* Enhanced Confetti Animation */
+
 .confetti {
     position: fixed;
     top: 0;
